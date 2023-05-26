@@ -1,0 +1,23 @@
+{
+  "name": "docker_deployment",
+  "version": "1.0.0",
+  "description": "Learning docker deployment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "simple-server public 3000",
+    "start": "simple-server public 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoebilyas123/docker_deployment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoebilyas123/docker_deployment/issues"
+  },
+  "homepage": "https://github.com/shoebilyas123/docker_deployment#readme",
+  "dependencies": {
+    "simple-server": "^1.1.1"
+  }
+}
